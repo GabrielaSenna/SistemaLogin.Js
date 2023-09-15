@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="LoginPage.css">
+    <title>Sistema Login</title>
+</head>
+<body>
+    <div class="content">
+        <div class="register-tab">
+            <h1 class="emoji">:)</h1>
+            <p class="title-r">Olá! Registre-se abaixo</p>
+            <div class="form">
+                <input type="text" placeholder="Digite seu novo user" id="novoUser" class="input">
+                <input type="password" placeholder="Agora, uma boa senha" id="novaSenha" class="input">
+                <input type="password" placeholder="Confirme sua senha" id="confirmSenha" class="input">
+                <button onclick="registrar()">Registrar</button>
+            </div>
+        </div>
+
+        <div class="login-tab">
+            <div class="texture">
+                <img src="background.png" alt="">
+            </div>
+            <h1 class="emoji-dark">;)</h1>
+            <p class="title-l">Certo... Agora faça seu login</p>
+            <div class="form">
+                <input type="text" placeholder="Usuário escohido" id="user" class="input dark">
+                <input type="password" placeholder="Sua super senha" id="senha" class="input dark">
+                <button onclick="logar()" class="button-dark">Logar</button>
+            </div>
+        </div>
+    </div>
+    <script src="LoginPage.js"></script>
+</body>
+</html>
